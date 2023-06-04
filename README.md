@@ -14,6 +14,7 @@ The tools and the library are licensed under the GPL for non-commercial use only
 Only Linux is supported.[^windows] Other than the usual build dependencies (like `g++`, `make`, etc.), you will need:
 * The [GNU Scientific Library](https://www.gnu.org/software/gsl/)
 * The [Boost libraries](https://www.boost.org/)
+
 Most (if not all) distributions provide packages for these; you'll have to consult your distribution's package repository to determine what they're called. When installing the prerequisites, make sure you include the development header packages as well as the runtime libraries (most, but I think not all, distributions separate the two).
 
 ### Compilation
